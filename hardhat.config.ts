@@ -19,7 +19,7 @@ const config: HardhatUserConfig = {
       accounts: {
         mnemonic: process.env.MNEMONIC as string,
       },
-      gasPrice: 65 * GWEI, // Para testnets apenas <!>
+      gasPrice: 65 * GWEI,
     },
     arbitrumRinkeby: {
       url: 'https://arb-rinkeby.g.alchemy.com/v2/' + process.env.ALCHEMY_TOKEN,
