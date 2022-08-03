@@ -33,3 +33,17 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+.env
+
+# contracts
+coverage
+coverage.json
+typechain-types
+
+cache
+artifacts
+
+.openzeppelin/*
+!.openzeppelin/unknown-137.json
+!.openzeppelin/mainnet.json
